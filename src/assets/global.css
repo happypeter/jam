@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  color: #313d3e;
+  font-family: leitura,serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url(../img/jam-watermark.svg) no-repeat 0 0;
+}
+
+.disqualification {
+  background: url(../img/x.svg) no-repeat top left;
+}
+
+.thumbnail-wrap:after {
+  background: url(../img/play-btn.svg) no-repeat center;
+  background-size: 44px 44px;
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  transition: background-size .2s ease;
+}
+
+.ant-anchor-ink {
+  display: none;
+}
+
+.ant-anchor .ant-anchor-link {
+  padding: 8px 0 8px 0px;
+  line-height: 1;
+}
+
+.ant-anchor-link .ant-anchor-link-title {
+  overflow: visible;
+  color: #00c7b7;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: leitura,serif;
+}
+
+.ant-anchor-link .ant-anchor-link-title:focus {
+  text-decoration: none;
+}
+
+.ant-anchor .ant-anchor-link-active > .ant-anchor-link-title {
+    color: #00c7b7;
+}
+
+.articles-list li:nth-child(odd)::before {
+    background: #f6f6f6;
+}
+
+.articles-list li::before {
+  background: #fff;
+  content: ' ';
+  height: 100%;
+  left: -200%;
+  position: absolute;
+  top: 0;
+  width: 400%;
+  transition: background .2s ease;
+}
+
+.articles-list li:nth-child(odd) span {
+    color: #f6f6f6;
+}
+
+.articles-list li span {
+  color: #fff;
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  float: right;
+  text-align: right;
+  top: calc(50% - 10px);
+  right: 24px;
+  transform: translateX(0);
+  position: absolute;
+  transition: transform .2s ease;
+}
+
+.articles-list li:hover a h3{
+    color: #fff;
+}
+
+.articles-list li a, .resources .articles-list li h2 {
+  color: #313d3e;
+  display: inline-block;
+  flex: 1;
+  vertical-align: bottom;
+}
+
+.articles-list li a:first-child, .resources .articles-list li a:last-child, .resources .articles-list li h2:first-child, .resources .articles-list li h2:last-child {
+  flex: 2;
+}
+
+.articles-list li span::before {
+  content: 'Read Full Article ';
+}
+
+.articles-list li:hover span {
+    transform: translateX(24px);
+}
+
+.podcast-promo {
+    background: #222 url(../img/podcast-bg@2x.jpg) top center no-repeat;
+    background-size: cover;
+}

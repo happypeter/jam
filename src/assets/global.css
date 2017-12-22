@@ -5,7 +5,14 @@ body {
   font-weight: 400;
 }
 
+p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
 a {
+  outline: none;
   text-decoration: none;
 }
 
@@ -119,4 +126,38 @@ a {
 .podcast-promo {
     background: #222 url(../img/podcast-bg@2x.jpg) top center no-repeat;
     background-size: cover;
+}
+
+
+
+/* */
+.events::after, .events::before {
+  content: " ";
+  display: table;
+}
+.events:after {
+    clear: both;
+}
+
+
+.he {
+  background: url(../img/meetup-logo.svg) top center no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding: 104px 0 24px 0;
+  text-align: center;
+}
+
+.meetup-events-label {
+  background: url(../img/chapters/meetup-logomark.svg) no-repeat left center;
+    background-size: contain;
+}
+
+
+@media screen and (min-width: 768px) {
+ .he {
+    background-position: top center;
+    padding: 160px 0 calc(104px * 2) 0;
+    margin-bottom: -104px;
+  }
 }

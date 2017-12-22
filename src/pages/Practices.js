@@ -12,14 +12,15 @@ const Best_ractices = styled.div`
 
   .headline {
     margin-bottom: 16px;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 64px;
+    font-weight: 600;
   }
 
   .cta {
     max-width: 50%;
     margin-bottom: 54px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
   }
 
@@ -30,7 +31,7 @@ const Best_ractices = styled.div`
     .best-practice {
       width: 30%;
       h4 {
-        font-size: 22px;
+        font-size: 24px;
         line-height: 34px;
         font-weight: 700;
         margin: 0 0 14px 0;
@@ -41,7 +42,7 @@ const Best_ractices = styled.div`
         }
       }
       p{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 28px;
         margin: 0 0 45px 0;

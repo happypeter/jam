@@ -17,6 +17,7 @@ const Menu = styled.div`
     font-weight: 700;
     color: #313d3e;
     position: relative;
+    font-size: 14.5px
   }
 
   .show {

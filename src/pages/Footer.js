@@ -7,6 +7,8 @@ const Foo = styled.div`
   .contained {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
   }
   .contained {
     color: #8b8b8b;
@@ -14,6 +16,7 @@ const Foo = styled.div`
     font-size: 16px;
     text-align: center;
     line-height: 32px;
+    font-weight: 300;
   }
 
   a {
@@ -26,7 +29,7 @@ const Foo = styled.div`
 class Footer extends React.Component {
   render () {
     return (
-      <Foo>
+      <Foo className='footer'>
         <p className="contained">Community chat on <a href="https://gitter.im/jamstack/community" target="_blank" className="text-link">Gitter</a>. Site code on <a href="https://github.com/jamstack/jamstack.org">GitHub</a>. Pull Requests welcome!</p>
       </Foo>
     )

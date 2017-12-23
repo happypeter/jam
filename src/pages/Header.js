@@ -1,8 +1,24 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import '../assets/header.css'
+import { Menu, Dropdown } from 'antd';
 
-const Menu = styled.div`
+const menu = (
+  <Menu>
+    <Menu.Item key="0">
+      <Link to='/'>The JAMstack</Link>
+    </Menu.Item>
+    <Menu.Item key="1">
+      <Link to='/Practices'>Best Practices</Link>
+    </Menu.Item>
+    <Menu.Item key="3"><Link to='/Examples'>Examples</Link></Menu.Item>
+    <Menu.Item key="4"><Link to='/Examples'>Resources</Link></Menu.Item>
+    <Menu.Item key="5"><Link to='/Examples'>Community</Link></Menu.Item>
+  </Menu>
+);
+
+const Me = styled.div`
   font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   padding: 40px;
   display: flex;
@@ -10,6 +26,10 @@ const Menu = styled.div`
   position: fixed;
   z-index: 100;
   width: 100%;
+
+  .nav-menu {
+    display: none;
+  }
 
   .nav a{
     margin-left: 20px;
@@ -40,7 +60,7 @@ const Menu = styled.div`
 class Header extends React.Component {
   render () {
     return (
-      <Menu>
+      <Me className="header">
         <div className="logo">
           <Link to='/'>
             <img src={require('../img/jamstack-logo.svg')} />
@@ -52,7 +72,17 @@ class Header extends React.Component {
           <Link to='/Resources'><div className='show'></div>Resources</Link>
           <Link to='/Community'><div className='show'></div>Community</Link>
         </div>
-      </Menu>
+        <Dropdown overlay={menu} trigger={['click']}>
+          <div className="nav-menu">
+            <span className="slicknav_btn">
+              <span className="slicknav_menutxt">
+                <span className="slicknav_icon slicknav_no-text"><span className="slicknav_icon-bar"></span><span className="slicknav_icon-bar"></span><span className="slicknav_icon-bar"></span></span>
+              </span>
+            </span>
+          </div>
+        </Dropdown>
+
+      </Me>
     )
   }
 }

@@ -1,0 +1,95 @@
+@media screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+
+  .header .nav-menu {
+    display: block!important;
+    margin: -4px 0 29px 0;
+    max-width: 1200px;
+  }
+
+  .nav-menu::before {
+    content: " ";
+    display: table;
+  }
+
+  .nav-menu .slicknav_btn.slicknav_open {
+    margin: -4px 0 29px 0;
+  }
+
+  .nav-menu .slicknav_btn {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    float: right;
+    padding: 8px 6px 22px 20px;
+    line-height: 0;
+    margin: -4px 0 -8px 0;
+    cursor: pointer;
+    transition: margin .2s ease;
+  }
+
+  .slicknav_menutxt {
+    display: block;
+    line-height: 1.188em;
+    float: left;
+  }
+
+  .slicknav_no-text {
+    margin: 0;
+  }
+
+ .slicknav_icon {
+    float: left;
+    width: 1.125em;
+    height: .875em;
+    margin: .188em 0 0 .438em;
+  }
+
+  .slicknav_icon::before {
+    background: 0 0;
+    width: 1.125em;
+    height: .875em;
+    display: block;
+    content: "";
+    position: absolute;
+  }
+
+ .slicknav_icon-bar {
+    display: block;
+    width: 24px;
+    height: 6px;
+    box-shadow: 0 2px 0 #313d3e;
+  }
+
+  .ant-dropdown {
+    width: 90%;
+    top: 122px!important;
+    left: 5%!important;
+  }
+
+  .ant-dropdown-menu {
+      padding: 4px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .ant-dropdown-menu-item a {
+    background: #f7f8f8;
+    border-radius: 4px;
+    color: #313d3e;
+    display: block;
+    padding: 24px 0;
+    font-size: 18px
+  }
+
+  .ant-dropdown-menu-item a:hover {
+    background: #00c7b7;
+    color: #fff;
+  }
+
+  .ant-dropdown-menu-item:not(:last-child) {
+    border-bottom: 4px solid #fff;
+  }
+}

@@ -11,6 +11,8 @@ const Resource = styled.div`
     display: block;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
     font-size: 40px;
     line-height: 64px;
   }
@@ -19,16 +21,17 @@ const Resource = styled.div`
     display: block;
     margin: 0 auto;
     max-width: 1200px;
-    font-size: 18px;
+    padding: 0 40px;
+    box-sizing: content-box;
+    font-size: 20px;
     line-height: 32px
-
-    a {
-      color: #00c7b7;
-      text-decoration: none;
-      font-weight: 700;
-    }
   }
 
+  a {
+    color: #00c7b7;
+    text-decoration: none;
+    font-weight: 700;
+  }
   .contained .strong {
     display: block;
     font-weight: 900;
@@ -38,7 +41,8 @@ const Resource = styled.div`
 const Videos = styled.div`
   max-width: 1200px;
   margin: 40px auto;
-
+  padding: 0 40px;
+  box-sizing: content-box;
   h1{
     margin-bottom: 16px;
     font-size: 40px;
@@ -111,6 +115,8 @@ const Articles = styled.div`
   .contained {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
   }
   h1.contained {
     margin-bottom: 16px;
@@ -145,6 +151,8 @@ const Articles = styled.div`
 `
 const Podcasts = styled.div`
   margin: 104px auto;
+  padding: 0 40px;
+  box-sizing: content-box;
   max-width: 1200px;
   .podcast-promo {
     padding: 64px 40px;

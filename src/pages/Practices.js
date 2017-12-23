@@ -8,6 +8,8 @@ const Best_ractices = styled.div`
   .contained {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
   }
 
   .headline {

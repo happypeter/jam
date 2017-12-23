@@ -2,6 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 import Faq from './Faq';
+import '../assets/home.css'
 
 
 const Sec = styled.div`
@@ -9,8 +10,9 @@ const Sec = styled.div`
   background-size: cover;
   .contained {
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
     margin: 0 auto;
-    padding: 0 10px;
     h1 {
       font-size: 46px;
       line-height: 64px;
@@ -30,6 +32,8 @@ const Intro = styled.div`
   margin: 104px auto;
   .contained {
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -72,6 +76,8 @@ const Breakdown = styled.div`
   .contained {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
   }
   .contained h1 {
     font-size: 40px;
@@ -129,6 +135,8 @@ const Breakdown = styled.div`
 
 const Jam_disqualifications = styled.div`
   max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: content-box;
   margin: 104px auto;
   h1 {
     font-size: 40px;
@@ -163,6 +171,8 @@ const Jam_disqualifications = styled.div`
 
 const Why = styled.div`
   max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: content-box;
   margin: 0 auto;
   h1 {
     margin-bottom: 53px;
@@ -204,6 +214,8 @@ const Why = styled.div`
 const How = styled.div`
   max-width: 1200px;
   margin: 104px auto;
+  padding: 0 40px;
+  box-sizing: content-box;
   h1 {
     margin: 0 0 28px 0;
     line-height: 30px;
@@ -228,13 +240,13 @@ const How = styled.div`
 class Home extends React.Component {
   render () {
     return (
-      <div>
+      <div className="container">
         <Sec className='hero'>
           <div className='contained'>
-            <h1><strong className="str">JAMstack</strong>: noun \’jam-stak’\ <br /> Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.</h1>
+            <h1><strong className="str">JAMstack</strong>: noun \’jam-stak’\ <span><br /></span>  Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.</h1>
           </div>
         </Sec>
-        <Intro>
+        <Intro className="intro">
           <div className="contained">
             <div>
               When we talk about “The Stack,” we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br /><br />The JAMstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
@@ -245,28 +257,28 @@ class Home extends React.Component {
             </div>
           </div>
         </Intro>
-        <Breakdown id='what'>
+        <Breakdown id='what' className="breakdown">
           <div className="contained">
             <h1>What is the JAMstack?</h1>
             <p>Your project is built with the JAMstack if it meets three key criteria:</p>
           </div>
           <div className="letter-definition">
-            <img src={require('../img/j.svg')} />
+            <img src={require('../img/j.svg')} className="letter" />
             <h1>JavaScript</h1>
             <p>Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript.</p>
           </div>
           <div className="letter-definition">
-            <img src={require('../img/a.svg')} />
+            <img src={require('../img/a.svg')} className="letter" />
             <h1>APIs</h1>
             <p>All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services.</p>
           </div><div className="letter-definition">
-            <img src={require('../img/m.svg')} />
+            <img src={require('../img/m.svg')} className="letter" />
             <h1>Markup</h1>
             <p>Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br /><br />
             <Link to="/Examples">Want to see some examples?</Link></p>
           </div>
         </Breakdown>
-        <Jam_disqualifications>
+        <Jam_disqualifications className="jam-disqualifications">
           <h1>When is your site <em>not</em> built with the JAMstack?</h1>
           <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
           <div className="disqualifications">
@@ -275,7 +287,7 @@ class Home extends React.Component {
             <h4 className="disqualification">A single page app that uses isomorphic rendering to build views on the server at runtime.</h4>
           </div>
         </Jam_disqualifications>
-        <Why id='why'>
+        <Why id='why' className="why">
           <h1>Why the JAMstack?</h1>
           <div className="advantages-grid">
             <div className="advantage">
@@ -296,7 +308,7 @@ class Home extends React.Component {
             </div>
           </div>
         </Why>
-        <How id='how'>
+        <How id='how' className="how">
           <h1 id="Link-Props">How do I get started?</h1>
           <Link to="/Practices"><h4>Learn About Best Practices →</h4></Link>
           <Link to="/Resources"><h4>View Resources →</h4></Link>

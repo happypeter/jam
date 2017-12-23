@@ -1,0 +1,228 @@
+@media screen and (max-width: 768px) {
+
+  .hero {
+    padding: 140px 0 64px 0;
+    text-align: center;
+  }
+
+  .hero .contained {
+    padding: 0 24px;
+  }
+
+
+ .hero .contained  h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .hero h1:not(.chapters-headline) span {
+    display: none;
+  }
+
+ .hero .contained  h1:not(.chapters-headline) {
+    margin: 40px 0;
+  }
+
+
+  .hero+.intro .grid {
+    padding-bottom: 40px;
+  }
+
+  .intro {
+    margin: 64px auto;
+  }
+
+  .intro .contained {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: block;
+  }
+
+  .intro .contained div:first-child {
+    margin: 0 0 40px 0;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313d3e;
+    text-align: center;
+  }
+
+  .intro .contained .faq {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    vertical-align: top;
+  }
+
+  .intro .contained .faq h1 {
+    line-height: 0;
+    margin: 9px 0 26px 0;
+    font-weight: 400;
+    font-size: 26px;
+    color: #313d3e;
+  }
+  .intro .contained .faq div {
+    width: 100%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .intro .contained .faq  a {
+    color: #00c7b7;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .ant-anchor .ant-anchor-link {
+    padding: 2px 0 2px 0px;
+    line-height: 1;
+  }
+
+  .ant-anchor-ink:before {
+    display: none;
+  }
+
+
+  .breakdown {
+    margin: 64px 0;
+  }
+
+  .breakdown .contained {
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .container .breakdown .contained h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    margin: 24px 0 0 0;
+  }
+
+  .container .breakdown .contained p {
+    margin: 0 0 40px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .breakdown .letter-definition {
+    display: table;
+    padding: 0 24px;
+    margin: auto;
+    max-width: 960px;
+    text-align: left;
+  }
+
+  .container .breakdown .letter-definition:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  .breakdown .letter-definition .letter {
+    height: auto;
+    margin: 0 24px 0 auto;
+    max-width: 20%;
+  }
+
+  .container .breakdown .letter-definition h1 {
+    line-height: 28px;
+    padding-top: 0;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .container .breakdown .letter-definition p {
+    display: inline-block;
+    width: calc(80% - 24px);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .container .breakdown .letter-definition a {
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .container .jam-disqualifications {
+    margin: 64px auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .container .jam-disqualifications h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    margin: 0;
+  }
+  .container .jam-disqualifications p {
+    margin-bottom: 43px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container .jam-disqualifications .disqualifications .disqualification {
+    background-size: 16px;
+    background-position: 0 calc(8px / 2);
+    box-sizing: border-box;
+    margin: 0 0 24px 0;
+    padding: 0 0 0 24px;
+    text-align: left;
+    width: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .container .why h1 {
+    line-height: 30px;
+    margin: 0 0 29px 0;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .container .why .advantages-grid .advantage {
+    box-sizing: border-box;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .container .why .advantages-grid .advantage h4 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .container .why .advantages-grid .advantage p {
+    margin: 10px 0 29px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container .how {
+    margin: 64px auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+
+  .container .how h1 {
+    margin: 0 0 28px 0;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+  .container .how a h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

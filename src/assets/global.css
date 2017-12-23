@@ -24,6 +24,8 @@ a {
 
 .hero {
   background: url(../img/jam-watermark.svg) no-repeat 0 0;
+  background-size: cover;
+  background-position: center;
 }
 
 .disqualification {

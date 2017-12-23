@@ -10,6 +10,8 @@ const Hero = styled.div`
   padding: 160px 0 calc(104px * 2) 0;
   margin-bottom: -104px;
   .contained {
+    padding: 0 40px;
+    box-sizing: content-box;
     margin: 0 auto;
     max-width: 1200px;
     h1 {
@@ -24,6 +26,8 @@ const Hero = styled.div`
 const Contain= styled.div`
   margin: 0 auto;
   max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: content-box;
   .grid {
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +83,8 @@ const Gitter = styled.div`
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: content-box;
   margin: -40px auto 40px auto;
   .hook {
     margin: 0 3% 0 0;
@@ -139,6 +145,8 @@ const Gitter = styled.div`
 const Events = styled.div`
   margin: 104px auto 64px auto;
   max-width: 1200px;
+  padding: 0 40px;
+  box-sizing: content-box;
   .h1 {
     margin-bottom: 46px;
     text-align: center;

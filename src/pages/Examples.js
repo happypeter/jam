@@ -8,6 +8,8 @@ const Wrap = styled.div`
   .contained {
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 40px;
+    box-sizing: content-box;
    .grid {
       display: flex;
       flex-wrap: wrap;
@@ -85,6 +87,11 @@ const Wrap = styled.div`
         margin-bottom: 24px;
         margin: 0 4% 40px 0;
         width: 48%;
+      }
+      a {
+        color: #00c7b7;
+        text-decoration: none;
+        font-weight: 700;
       }
       strong {
         display: block;

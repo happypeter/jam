@@ -13,8 +13,8 @@ const menu = (
       <Link to='/Practices'>Best Practices</Link>
     </Menu.Item>
     <Menu.Item key="3"><Link to='/Examples'>Examples</Link></Menu.Item>
-    <Menu.Item key="4"><Link to='/Examples'>Resources</Link></Menu.Item>
-    <Menu.Item key="5"><Link to='/Examples'>Community</Link></Menu.Item>
+    <Menu.Item key="4"><Link to='/Resources'>Resources</Link></Menu.Item>
+    <Menu.Item key="5"><Link to='/Community'>Community</Link></Menu.Item>
   </Menu>
 );
 

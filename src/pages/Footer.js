@@ -15,8 +15,8 @@ const Foo = styled.div`
     font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
     font-size: 16px;
     text-align: center;
-    line-height: 32px;
-    font-weight: 300;
+    line-height: 30px;
+    font-weight: 100;
   }
 
   a {

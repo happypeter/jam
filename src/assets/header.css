@@ -64,15 +64,16 @@
   }
 
   .ant-dropdown {
-    width: 90%;
-    top: 122px!important;
-    left: 5%!important;
+    position: fixed!important;
+    width: 100%;
+    top: 100px!important;
+
   }
 
   .ant-dropdown-menu {
-      padding: 4px;
-      width: 100%;
-      text-align: center;
+    padding: 4px 24px;
+    width: 100%;
+    text-align: center;    
   }
 
   .ant-dropdown-menu-item a {
@@ -80,7 +81,7 @@
     border-radius: 4px;
     color: #313d3e;
     display: block;
-    padding: 24px 0;
+    padding: 18px 0;
     font-size: 18px
   }
 

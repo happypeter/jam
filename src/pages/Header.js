@@ -22,11 +22,12 @@ const Me = styled.div`
   font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
   padding: 40px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   z-index: 100;
   width: 100%;
-
+  transition: background .2s ease,padding .2s ease,box-shadow .2s ease;
   .nav-menu {
     display: none;
   }
@@ -45,7 +46,7 @@ const Me = styled.div`
     height: 29px;
     left: 0;
     position: absolute;
-    top: -48px;
+    top: -55px;
     transform: translateY(-30px) skew(45deg);
     transition: transform .2s ease;
     width: 100%;
@@ -57,10 +58,36 @@ const Me = styled.div`
   }
 `
 
+
+
 class Header extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      show: false
+    }
+  }
+
+  componentDidMount() {
+     window.addEventListener('scroll', this.orderScroll.bind(this))
+   }
+
+   orderScroll() {
+     console.log(document.body.scrollTop)
+     if (document.body.scrollTop>0) {
+       this.setState({show: true})
+     }else {
+       this.setState({show: false})
+     }
+   }
   render () {
+    let divstyle = {
+     backgroundColor:'white',
+     padding: '20px 20px 20px 20px',
+     boxShadow: '0 4px 8px rgba(0,0,0,.05)'
+    }
     return (
-      <Me className="header">
+      <Me className="header" style={this.state.show? divstyle : null}>
         <div className="logo">
           <Link to='/'>
             <img src={require('../img/jamstack-logo.svg')} />

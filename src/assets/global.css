@@ -8,7 +8,7 @@ body {
 p {
   font-size: 20px;
   line-height: 32px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 a {
@@ -162,11 +162,19 @@ a {
     padding: 160px 0 calc(104px * 2) 0;
     margin-bottom: -104px;
   }
+
 }
 
 
 @media screen and (max-width: 480px) {
   .footer .contained {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer .contained {
+    padding: 0 24px;
+    line-height: 24px;
   }
 }

@@ -1,0 +1,31 @@
+@media screen and (max-width: 959px) {
+.box .contained .grid .example {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box .contained {
+    padding: 0 24px;
+  }
+
+  .box .contained .cta {
+    margin-bottom: 24px;
+  }
+
+  .box .contained .cta h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .box .contained .cta p:not(.cta) {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .box .contained .grid .example {
+    width: 100%;
+  }
+}

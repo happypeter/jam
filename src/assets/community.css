@@ -1,0 +1,118 @@
+@media screen and (max-width: 959px) {
+  .com .contain .grid .chapter h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .com .he {
+    padding: 104px 0 24px 0;
+    text-align: center;
+    margin: 0;
+  }
+
+  .com .he .contained {
+    padding: 0 24px;
+  }
+
+  .com .he .contained h1 {
+    line-height: 32px;
+    margin: 40px 0;
+    font-size: 26px;
+  }
+
+  .com .contain {
+    padding: 0 24px;
+  }
+
+  .com .contain .grid {
+    margin: 0
+  }
+
+  .com .contain .grid .chapter  {
+    width: 100%;
+  }
+
+  .com .gitter {
+    margin: 24px auto;
+    padding: 0 24px
+  }
+
+  .com .gitter .hook {
+    align-self: center;
+    margin: 0 0 40px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .com .gitter .hook h1 {
+    line-height: 32px;
+    font-size: 26px;
+  }
+
+  .com .gitter .hook p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .com .gitter .event-card {
+    display: none;
+  }
+
+  .com .events {
+    padding: 0 24px;
+    margin: 0 auto 64px auto;
+  }
+
+  .com .events h1 {
+    margin-bottom: 32px;
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  .com .events .meetup-events-label {
+    margin: 0;
+    font-weight: 800;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 24px;
+    background: url(../img/chapters/meetup-logomark.svg) no-repeat left center;
+    background-size: contain;
+    padding-left: 28px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 2.3576516%;
+    width: 100%;
+  }
+
+  .com .events .event-card {
+    margin: 0;
+    width: 100%;
+  }
+
+  .com .events .event-card .event-date {
+    width: 22.31600229%;
+  }
+
+  .com .events .event-card .event-info {
+    width: 74.10533410%;
+  }
+
+  .com .events .event-card .event-info h1 {
+    text-align: left;
+  }
+
+  .com .bottom-cta .contained h1 {
+    line-height: 32px;
+    font-size: 26px;
+    margin: 0 0 28px 0;
+  }
+}

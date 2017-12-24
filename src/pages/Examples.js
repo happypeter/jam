@@ -1,5 +1,6 @@
 import React from "react"
 import styled from 'styled-components'
+import '../assets/examples.css'
 
 const Wrap = styled.div`
   padding-top: 144px;

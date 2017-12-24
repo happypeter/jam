@@ -1,7 +1,8 @@
 import React from "react"
 import styled from 'styled-components'
+import '../assets/practices.css'
 
-const Best_ractices = styled.div`
+const Best_practices = styled.div`
   padding-top: 124px;
   text-align: left;
   width: 100%;
@@ -56,7 +57,7 @@ const Best_ractices = styled.div`
 class Practices extends React.Component {
   render () {
     return (
-      <Best_ractices>
+      <Best_practices className="practices">
         <div className="contained">
           <h1 className="headline">Best Practices</h1>
           <p className="cta">When building JAMstack projects, you can really get the most out of the stack if you stick to a few best practices.</p>
@@ -94,7 +95,7 @@ class Practices extends React.Component {
 
       </div>
         </div>
-      </Best_ractices>
+      </Best_practices>
     )
   }
 }

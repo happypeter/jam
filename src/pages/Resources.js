@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import styled from 'styled-components'
+import '../assets/resources.css'
 
 const Resource = styled.div`
   background-image: linear-gradient(0deg,#f7f8f8 0,#fff 100%);
@@ -7,22 +8,18 @@ const Resource = styled.div`
   padding-top: 124px;
   text-align: left;
   width: 100%;
-  h1 {
-    display: block;
+  .contained {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 40px;
     box-sizing: content-box;
+  }
+  h1 {
     font-size: 40px;
     line-height: 64px;
   }
 
   p {
-    display: block;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 40px;
-    box-sizing: content-box;
     font-size: 20px;
     line-height: 32px
   }
@@ -180,6 +177,9 @@ const Podcasts = styled.div`
         padding: 8px 16px;
         transition: background .2s ease;
       }
+      .button.green:hover {
+        background: #fff;
+      }
     }
     .teaser {
       width: calc(60% - 40px);
@@ -204,13 +204,13 @@ const Podcasts = styled.div`
 class Resources extends React.Component {
   render () {
     return (
-      <Resource>
+      <Resource className="resources">
         <h1 className="contained">Resources</h1>
         <p className="contained">
           <strong className='strong'>Have a great JAMstack resource to share?</strong>
           Submit a Pull Request with your JAMstack resource's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
         </p>
-        <Videos>
+        <Videos className="videos">
           <h1>Videos</h1>
           <div className="grid">
             <a className="video" href="https://www.youtube.com/watch?v=uWTMEDEPw8c" data-lity="" data-lity-target="https://www.youtube.com/watch?v=uWTMEDEPw8c">
@@ -236,7 +236,7 @@ class Resources extends React.Component {
             </a>
           </div>
         </Videos>
-        <Articles>
+        <Articles className="articles">
           <h1 className="contained">Articles</h1>
             <ul className="articles-list contained">
 
@@ -291,7 +291,7 @@ class Resources extends React.Component {
 
           </ul>
         </Articles>
-        <Podcasts>
+        <Podcasts className="podcasts">
           <div className="podcast-promo">
             <div className="cta">
               <img src={require('../img/jamstack-knockout.svg')} />

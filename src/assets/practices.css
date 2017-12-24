@@ -1,0 +1,42 @@
+@media screen and (max-width: 959px) {
+  .practices .contained .grid .best-practice {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .practices .contained {
+    padding: 0 24px;
+  }
+
+  .practices .contained h1 {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 16px;
+  }
+
+  .practices .contained .cta {
+    margin-bottom: 54px;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+
+  .practices .contained .grid .best-practice {
+    width: 100%;
+  }
+
+  .practices .contained .grid .best-practice h4 {
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 32px;
+    margin: 0 0 14px 0;
+  }
+
+  .practices .contained .grid .best-practice p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0 0 45px 0;
+  }
+}

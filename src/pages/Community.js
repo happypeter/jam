@@ -1,6 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 import { Button } from 'antd';
+import '../assets/community.css'
 
 const Com = styled.div`
   background: linear-gradient(0deg,#f7f8f8 0,#fff 100%);
@@ -293,13 +294,13 @@ const Bottom = styled.div`
 class Community extends React.Component {
   render () {
     return  (
-      <Com>
+      <Com className="com">
         <Hero className="he">
           <div className="contained">
             <h1 className="community-headline">Join your local JAMstack Chapter.</h1>
           </div>
         </Hero>
-        <Contain>
+        <Contain className="contain">
           <div className="grid">
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-sf/">
               <img src={require('../img/chapters/sf-art.svg')} className="art" />
@@ -363,7 +364,7 @@ class Community extends React.Component {
             </a>
           </div>
         </Contain>
-        <Gitter>
+        <Gitter className="gitter">
           <div className="hook">
             <h1>Chat on Gitter.</h1>
             <p>
@@ -387,7 +388,7 @@ class Community extends React.Component {
             <a href="https://www.meetup.com/JAMstack-Boston/events/245895909/" className="event-card with-link"><div className="event-date">Jan 25</div><div className="event-info"><h4>Localytics</h4><h1>Presentation Night - "Going static: lessons in static site content management"</h1><em className='em'>Starts at 7:00 am</em></div></a>
           </div>
         </Events>
-        <Bottom>
+        <Bottom className="bottom-cta">
           <div className="contained">
             <img src={require('../img/chapters/meetup-map.svg')} className="art" />
             <h1>Start a JAMstack Meetup</h1>

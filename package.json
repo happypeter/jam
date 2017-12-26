@@ -12,6 +12,8 @@
     "gatsby": "^1.9.141",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-antd": "^1.0.6",
+    "gatsby-plugin-catch-links": "^1.0.14",
+    "gatsby-plugin-nprogress": "^1.0.9",
     "gatsby-plugin-styled-components": "^2.0.4",
     "styled-components": "^2.3.0"
   }

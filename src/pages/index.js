@@ -243,7 +243,7 @@ class Home extends React.Component {
       <div className="container">
         <Sec className='hero'>
           <div className='contained'>
-            <h1><strong className="str">JAMstack</strong>: noun \’jam-stak’\ <span><br /></span>  Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.</h1>
+            <h1><strong className="str">JAMstack</strong>: 发音是 \’jam-stak’\ <span><br /></span>基于客户端 Js ，可复用 API 和预编译好的 Markup （标记语言）的摩登 web 开发架构。</h1>
           </div>
         </Sec>
         <Intro className="intro">

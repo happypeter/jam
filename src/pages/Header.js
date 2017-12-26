@@ -7,14 +7,14 @@ import { Menu, Dropdown } from 'antd';
 const menu = (
   <Menu>
     <Menu.Item key="0">
-      <Link to='/'>The JAMstack</Link>
+      <Link to='/'>JAM 技术栈</Link>
     </Menu.Item>
     <Menu.Item key="1">
-      <Link to='/Practices'>Best Practices</Link>
+      <Link to='/Practices'>最佳实践</Link>
     </Menu.Item>
-    <Menu.Item key="3"><Link to='/Examples'>Examples</Link></Menu.Item>
-    <Menu.Item key="4"><Link to='/Resources'>Resources</Link></Menu.Item>
-    <Menu.Item key="5"><Link to='/Community'>Community</Link></Menu.Item>
+    <Menu.Item key="3"><Link to='/Examples'>例子</Link></Menu.Item>
+    <Menu.Item key="4"><Link to='/Resources'>资源</Link></Menu.Item>
+    <Menu.Item key="5"><Link to='/Community'>社区</Link></Menu.Item>
   </Menu>
 );
 

@@ -249,7 +249,7 @@ class Home extends React.Component {
         <Intro className="intro">
           <div className="contained">
             <div>
-              这里我们说的 “技术栈” 不是指特定的操作系统， web 服务器，,后端语言，或者数据库。<br /><br />JAMstack 不特指某些特定技术. 它是一种新的开发网站和 App 的方式，可以实现更高的运行速度和安全性，更低的扩展费用和更好的开发者体验。
+              这里我们说的 “技术栈” 不特指哪个操作系统， web 服务器，后端语言，或者数据库。<br /><br />JAMstack 不是某些特定技术的组合. 它是一种新的开发网站和 App 的方式，可以实现更高的运行速度和安全性，更低的扩展费用和更好的开发者体验。
             </div>
             <div className="faq">
               <h1>FAQ</h1>

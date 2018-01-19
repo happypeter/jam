@@ -297,7 +297,7 @@ class Community extends React.Component {
       <Com className="com">
         <Hero className="he">
           <div className="contained">
-            <h1 className="community-headline">Join your local JAMstack Chapter.</h1>
+            <h1 className="community-headline">各地活动</h1>
           </div>
         </Hero>
         <Contain className="contain">
@@ -305,96 +305,74 @@ class Community extends React.Component {
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-sf/">
               <img src={require('../img/chapters/sf-art.svg')} className="art" />
               <h1>JAMstack San Francisco</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-dallas/">
               <img src={require('../img/chapters/dallas-art.svg')} className="art" />
               <h1>JAMstack Dallas</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-Austin/">
               <img src={require('../img/chapters/austin-art.svg')} className="art" />
               <h1>JAMstack Austin</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-Boston/">
               <img src={require('../img/chapters/boston-art.svg')} className="art" />
               <h1>JAMstack Boston</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-Porto/">
               <img src={require('../img/chapters/porto-art.svg')} className="art" />
               <h1>JAMstack Porto</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-OKC/">
               <img src={require('../img/chapters/okc-art.svg')} className="art" />
               <h1>JAMstack Oklahoma</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="https://www.meetup.com/jamstack-nyc/">
               <img src={require('../img/chapters/nyc-art.svg')} className="art" />
               <h1>JAMstack NYC</h1>
-              <Button className="btn bottom" type="danger">Join Now</Button>
+              <Button className="btn bottom" type="danger">参加</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="#">
               <img src={require('../img/chapters/london-art.svg')} className="art" />
               <h1>JAMstack London</h1>
-              <Button className="btn greyed" type="danger">Coming Soon</Button>
+              <Button className="btn greyed" type="danger">准备中</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="#">
               <img src={require('../img/chapters/seattle-art.svg')} className="art" />
               <h1>JAMstack Seattle</h1>
-              <Button className="btn greyed" type="danger">Coming Soon</Button>
+              <Button className="btn greyed" type="danger">准备中</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="#">
               <img src={require('../img/chapters/portland-art.svg')} className="art" />
               <h1>JAMstack Portland</h1>
-              <Button className="btn greyed" type="danger">Coming Soon</Button>
+              <Button className="btn greyed" type="danger">准备中</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="#">
               <img src={require('../img/chapters/philadelphia-art.svg')} className="art" />
               <h1>JAMstack Philadelphia</h1>
-              <Button className="btn greyed" type="danger">Coming Soon</Button>
+              <Button className="btn greyed" type="danger">准备中</Button>
             </a>
             <a className="chapter jamstack-san-francisco" href="#">
               <img src={require('../img/chapters/tokyo-art.svg')} className="art" />
               <h1>JAMstack Tokyo</h1>
-              <Button className="btn greyed" type="danger">Coming Soon</Button>
+              <Button className="btn greyed" type="danger">准备中</Button>
             </a>
           </div>
         </Contain>
         <Gitter className="gitter">
           <div className="hook">
-            <h1>Chat on Gitter.</h1>
+            <h1>Gitter 聊天</h1>
             <p>
-              <strong>Got a question or just want to chat?</strong>
-              Speak with leaders in the space on our community about all things JAMstack in our <a href="https://gitter.im/jamstack/community" target="_blank" className="text-link">Gitter Chat</a>.
+              <strong>有问题要讨论？</strong>
+              请访问 <a href="https://gitter.im/jamstack/community" target="_blank" className="text-link">Gitter Chat</a>.
             </p>
-          </div>
-          <a href="https://gitter.im/jamstack/community" target="_blank" className="event-card">
-            <h4>Join the Gitter Chat for...</h4>
-            <p>
-              <strong>• Expert advice on best practices</strong>
-              <strong>• Resource recommendations</strong>
-              <strong>• General discussion</strong>
-            </p>
-          </a>
+          </div>    
         </Gitter>
-        <Events className='events'>
-          <h1 className='h1'>Come hang out at the next JAMstack event.</h1>
-          <div id="meetup-events">
-            <h4 className="meetup-events-label">Upcoming JAMstack Boston Events</h4>
-            <a href="https://www.meetup.com/JAMstack-Boston/events/245895909/" className="event-card with-link"><div className="event-date">Jan 25</div><div className="event-info"><h4>Localytics</h4><h1>Presentation Night - "Going static: lessons in static site content management"</h1><em className='em'>Starts at 7:00 am</em></div></a>
-          </div>
-        </Events>
-        <Bottom className="bottom-cta">
-          <div className="contained">
-            <img src={require('../img/chapters/meetup-map.svg')} className="art" />
-            <h1>Start a JAMstack Meetup</h1>
-            <a href="mailto:cassandra@netlify.com" className="button">Contact Us</a>
-          </div>
-        </Bottom>
       </Com>
     )
   }

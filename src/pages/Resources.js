@@ -205,104 +205,10 @@ class Resources extends React.Component {
   render () {
     return (
       <Resource className="resources">
-        <h1 className="contained">Resources</h1>
+        <h1 className="contained">资源</h1>
         <p className="contained">
-          <strong className='strong'>Have a great JAMstack resource to share?</strong>
-          Submit a Pull Request with your JAMstack resource's information <a href="https://github.com/jamstack/jamstack.org">here</a>.
+          请访问<a href="https://jamstack.org/resources/">官网</a>.
         </p>
-        <Videos className="videos">
-          <h1>Videos</h1>
-          <div className="grid">
-            <a className="video" href="https://www.youtube.com/watch?v=uWTMEDEPw8c" data-lity="" data-lity-target="https://www.youtube.com/watch?v=uWTMEDEPw8c">
-              <div className="thumbnail-wrap">
-                <img src={require('../img/mathias-active-ingredients.jpg')} />
-              </div>
-              <h4>Rise of the JAMstack</h4>
-              <p>The emergence of Git centered workflows, around modern build tools, static site generators, and modern browsers, have changed the way most front-enders work.</p>
-            </a>
-            <a className="video" href="https://vimeo.com/163522126" data-lity="" data-lity-target="https://vimeo.com/163522126">
-              <div className="thumbnail-wrap">
-                <img src={require('../img/mathias-smashing-conf.png')} />
-              </div>
-              <h4>The New Front-end Stack. Javascript, APIs and Markup</h4>
-              <p>Matt Biilmann covers how a new stack has emerged and how this has changed how web sites and web apps are built.</p>
-            </a>
-            <a className="video" href="https://www.youtube.com/watch?v=lRg99MH6rhw" data-lity="" data-lity-target="https://www.youtube.com/watch?v=lRg99MH6rhw">
-              <div className="thumbnail-wrap">
-              <img src={require('../img/isomorphic.jpg')} />
-              </div>
-              <h4>Easy Isomorphic Rendering on the JAMstack</h4>
-              <p>In this talk, Phil explores some techniques and tools which can combine to create dynamic and powerful sites with on a JAM Stack.</p>
-            </a>
-          </div>
-        </Videos>
-        <Articles className="articles">
-          <h1 className="contained">Articles</h1>
-            <ul className="articles-list contained">
-
-              <li>
-                <a href="https://cosmicjs.com/blog/how-to-build-a-jamstack-website">
-                  <h3>How to Build a JAMstack Website</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.contentful.com/r/knowledgebase/jamstack-cms/">
-                  <h3>A JAMstack-ready CMS</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.hawksworx.com/blog/isomorphic-rendering-on-the-jam-stack/">
-                  <h3>Isomorphic Rendering on the JAMstack</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful">
-                  <h3>Dynamic product management in a static e-commerce workflow</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://snipcart.com/blog/jamstack-clients-static-site-cms">
-                  <h3>JAMstack for Clients: On Benefits &amp; Static Site CMS</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://builtvisible.com/go-static-try-jamstack/">
-                  <h3>Go static: 5 reasons to try JAMstack on your next project</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://habd.as/zero-to-http-2-aws-hugo/">
-                  <h3>Zero to HTTP/2 with AWS and Hugo</h3>
-                  <span>→</span>
-                </a>
-              </li>
-
-          </ul>
-        </Articles>
-        <Podcasts className="podcasts">
-          <div className="podcast-promo">
-            <div className="cta">
-              <img src={require('../img/jamstack-knockout.svg')} />
-              <a href="https://www.netlify.com/tags/podcast" className="button green">View All Podcasts →</a>
-            </div>
-            <div className="teaser">
-              <h1>Tune into the Podcast</h1>
-              <p>Every week, Brian Douglas from Netlify talks with special guests about all things pertaining to the JAMstack.</p>
-            </div>
-          </div>
-        </Podcasts>
       </Resource>
     )
   }

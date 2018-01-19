@@ -94,10 +94,10 @@ class Header extends React.Component {
           </Link>
         </div>
         <div className="nav">
-          <Link to='/Practices'><div className='show'></div>Best Practices</Link>
-          <Link to='/Examples'><div className='show'></div>Examples</Link>
-          <Link to='/Resources'><div className='show'></div>Resources</Link>
-          <Link to='/Community'><div className='show'></div>Community</Link>
+          <Link to='/Practices'><div className='show'></div>最佳实践</Link>
+          <Link to='/Examples'><div className='show'></div>例子</Link>
+          <Link to='/Resources'><div className='show'></div>资源</Link>
+          <Link to='/Community'><div className='show'></div>社区</Link>
         </div>
         <Dropdown overlay={menu} trigger={['click']}>
           <div className="nav-menu">

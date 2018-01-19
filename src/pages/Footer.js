@@ -30,7 +30,11 @@ class Footer extends React.Component {
   render () {
     return (
       <Foo className='footer'>
-        <p className="contained">Community chat on <a href="https://gitter.im/jamstack/community" target="_blank" className="text-link">Gitter</a>. Site code on <a href="https://github.com/jamstack/jamstack.org">GitHub</a>. Pull Requests welcome!</p>
+        <p className="contained">
+          本站内容由<a href="https://haoqicat.com">好奇猫</a>翻译。
+          网站代码在 <a href="https://github.com/happypeter/jam">Github</a>。
+          如果你发现本站翻译错误，请给我发 Pull Request 。
+        </p>
       </Foo>
     )
   }

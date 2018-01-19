@@ -115,7 +115,7 @@ class Examples extends React.Component {
       <Wrap className="box">
         <div className="contained">
           <div className="cta grid">
-            <h1>凡是网站上能实现的效果，使用 JAMstack 架构就一样能实现.很多人都这么做了，下面是一些例子：</h1>
+            <h1>凡是网站上能实现的效果，使用 JAMstack 架构也一样能实现。下面是一些例子：</h1>
             <p>
               <strong>想要把你的网站也添加进来？</strong>
               请发 Pull Request <a href="https://github.com/jamstack/jamstack.org" className="text-link">Click</a>.

@@ -249,7 +249,7 @@ class Home extends React.Component {
         <Intro className="intro">
           <div className="contained">
             <div>
-              When we talk about “The Stack,” we no longer talk about operating systems, specific web servers, backend programming languages, or databases.<br /><br />The JAMstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
+              这里我们说的 “技术栈” 不是指特定的操作系统， web 服务器，,后端语言，或者数据库。<br /><br />JAMstack 不特指某些特定技术. 它是一种新的开发网站和 App 的方式，可以实现更高的运行速度和安全性，更低的扩展费用和更好的开发者体验。
             </div>
             <div className="faq">
               <h1>FAQ</h1>
@@ -259,59 +259,75 @@ class Home extends React.Component {
         </Intro>
         <Breakdown id='what' className="breakdown">
           <div className="contained">
-            <h1>What is the JAMstack?</h1>
-            <p>Your project is built with the JAMstack if it meets three key criteria:</p>
+            <h1>什么是 JAMstack?</h1>
+            <p>如果你的网站满足下面三个标准，它就属于一个 JAMstack 架构的网站：</p>
           </div>
           <div className="letter-definition">
             <img src={require('../img/j.svg')} className="letter" />
             <h1>JavaScript</h1>
-            <p>Any dynamic programming during the request/response cycle is handled by JavaScript, running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript.</p>
+            <p>所有请求/响应过程中的功能都用 JS 开发，而且完全运行在浏览器中。可以用任意的 JS 框架，甚至纯 JS 来写。</p>
           </div>
           <div className="letter-definition">
             <img src={require('../img/a.svg')} className="letter" />
             <h1>APIs</h1>
-            <p>All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTP with JavaScript. These can be custom-built or leverage third-party services.</p>
+            <p>所有服务器端功能都被抽象成了可复用的 API ，通过 JS 发 HTTP 请求来调用。可以自建，也可以是第三方的 API 。</p>
           </div><div className="letter-definition">
             <img src={require('../img/m.svg')} className="letter" />
-            <h1>Markup</h1>
-            <p>Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps.<br /><br />
-            <Link to="/Examples">Want to see some examples?</Link></p>
+            <h1>Markup 标记语言</h1>
+            <p>模板化的标记语言应该在部署前先编译。如果是内容型网站，一般用网站生成器来编译，如果是 App 就有 Build 工具。<br /><br />
+            <Link to="/Examples">例子？</Link></p>
           </div>
         </Breakdown>
         <Jam_disqualifications className="jam-disqualifications">
-          <h1>When is your site <em>not</em> built with the JAMstack?</h1>
-          <p>Any project that relies on a tight coupling between client and server is not built with the JAMstack. This would include:</p>
+          <h1>什么样的网站 <em>不属于</em> JAMstack ？</h1>
+          <p>
+            所有前后端紧密耦合的项目。包括：
+          </p>
           <div className="disqualifications">
-            <h4 className="disqualification">A site built with a server-side CMS like WordPress, Drupal, Joomla, or Squarespace.</h4>
-            <h4 className="disqualification">A monolithic server-run web app that relies on Ruby, Node, or another backend language.</h4>
-            <h4 className="disqualification">A single page app that uses isomorphic rendering to build views on the server at runtime.</h4>
+            <h4 className="disqualification">
+              使用 WordProess， Drupal， Joomla， 或者 Squarespace 的网站。
+            </h4>
+            <h4 className="disqualification">
+              基于 Ruby， Node 或者其他后端语言写成的运行于服务器上的 App 。
+            </h4>
+            <h4 className="disqualification">
+              运行时也要依赖于服务器进行同构渲染的单页面应用。
+            </h4>
           </div>
         </Jam_disqualifications>
         <Why id='why' className="why">
-          <h1>Why the JAMstack?</h1>
+          <h1>为何选择 JAMstack?</h1>
           <div className="advantages-grid">
             <div className="advantage">
-              <h4>Better Performance</h4>
-              <p>Why wait for pages to build on the fly when you can generate them at deploy time? When it comes to minimizing the time to first byte, nothing beats pre-built files served over a CDN.</p>
+              <h4>高速</h4>
+              <p>
+                明明可以在部署前就编译成网页的内容，为何要让用户访问的时候才开始编译呢？说起打开速度，什么方式还能比部署到 CDN 上的静态网页更快呢。
+              </p>
             </div>
             <div className="advantage">
-              <h4>Higher Security</h4>
-              <p>With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services.</p>
+              <h4>更安全</h4>
+              <p>
+                服务器端功能都抽出成了 API 。我们自己的代码也没有什么可以被攻击的了，至于提供第三方 API 的公司，一般也比较专注，所以也更专业。
+              </p>
             </div>
             <div className="advantage">
-              <h4>Cheaper, Easier Scaling</h4>
-              <p>When your deployment amounts to a stack of files that can be served anywhere, scaling is a matter of serving those files in more places. CDNs are perfect for this, and often include scaling in all of their plans.</p>
+              <h4>扩展起来更便宜</h4>
+              <p>
+                因为就只有一些静态文件需要部署，所以直接多买些 CDN 空间和节点就万事大吉。
+              </p>
             </div>
             <div className="advantage">
-              <h4>Better Developer Experience</h4>
-              <p>Loose coupling and separation of controls allow for more targeted development and debugging, and the expanding selection of CMS options for site generators remove the need to maintain a separate stack for content and marketing.</p>
+              <h4>更好的开发者体验</h4>
+              <p>
+                更低的耦合，简化开发和调试。
+              </p>
             </div>
           </div>
         </Why>
         <How id='how' className="how">
-          <h1 id="Link-Props">How do I get started?</h1>
-          <Link to="/Practices"><h4>Learn About Best Practices →</h4></Link>
-          <Link to="/Resources"><h4>View Resources →</h4></Link>
+          <h1 id="Link-Props">现在上手？</h1>
+          <Link to="/Practices"><h4>最佳实践 →</h4></Link>
+          <Link to="/Resources"><h4>资源 →</h4></Link>
         </How>
       </div>
     )

@@ -64,15 +64,15 @@ class Practices extends React.Component {
             <div className="grid">
 
           <div className="best-practice">
-            <h4><img src={require('../img/thumbs-up.svg')} /> 整个项目都不部署在 CDN</h4>
-            <p>因为 JAMstack 的项目根本不依赖于服务器端代码, 所以可以部署到 CDN 上而不用部署到某个服务器上。
+            <h4><img src={require('../img/thumbs-up.svg')} /> 整个项目都部署在 CDN</h4>
+            <p>因为 JAMstack 的项目根本不依赖于服务器端代码，所以可以部署到 CDN 上，而不用部署到某个服务器上。
                这样的网站自然能在访问速度上获得最佳表现。
             </p>
           </div>
 
           <div className="best-practice">
             <h4><img src={require('../img/thumbs-up.svg')} /> 使用 Git 控制一切</h4>
-            <p>任何人都可以通过 <code>git clone</code> 来得到项目,然后按照一个标准流程安装依赖 (like <code>npm install</code>), 
+            <p>任何人都可以通过 <code>git clone</code> 来得到项目,然后按照一个标准流程安装依赖 (例如 <code>npm install</code>), 
             然后就可以在本地跑起项目。不需要安装数据库，没有复杂的安装步骤。这样可以让贡献项目变得非常容易，同时测试网站也变得容易了。
             </p>
           </div>
@@ -104,8 +104,7 @@ class Practices extends React.Component {
           <div className="best-practice">
             <h4><img src={require('../img/thumbs-up.svg')} />即时缓存失效</h4>
             <p>
-              When the build-to-deploy cycle becomes a regular occurrence, 
-              当我们经常都需要进行这个先构建后部署的循环。我需要保证当我的网站部署了，用户真的就能立即看到。
+              如果经常都需要进行这个先构建后部署的循环。就需要保证当网站部署了，用户真的就能立即看到。
               也就是我们要保证 CDN 能够立即更新所有缓存。
             </p>
           </div>

@@ -86,7 +86,6 @@ const Gitter = styled.div`
   max-width: 1200px;
   padding: 0 40px;
   box-sizing: content-box;
-  margin: -40px auto 40px auto;
   .hook {
     margin: 0 3% 0 0;
     width: 44%;

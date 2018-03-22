@@ -1,0 +1,88 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-community-js": [
+      "component---src-pages-community-js-fe2064f479001dfc0d69.js",
+      "component---src-pages-community-js-fe2064f479001dfc0d69.js.map"
+    ],
+    "component---src-pages-footer-js": [
+      "component---src-pages-footer-js-66fd062c0649eaffeb7b.js",
+      "component---src-pages-footer-js-66fd062c0649eaffeb7b.js.map"
+    ],
+    "path---examples": [
+      "path---examples-a0e39f21c11f6a62c5ab.js",
+      "path---examples-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e9d3174661f23ebd232b.js",
+      "component---src-pages-index-js-e9d3174661f23ebd232b.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-resources-js": [
+      "component---src-pages-resources-js-184c5efd258f8fd87314.js",
+      "component---src-pages-resources-js-184c5efd258f8fd87314.js.map"
+    ],
+    "path---faq": [
+      "path---faq-a0e39f21c11f6a62c5ab.js",
+      "path---faq-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-faq-js": [
+      "component---src-pages-faq-js-214a1c13a098239fce65.js",
+      "component---src-pages-faq-js-214a1c13a098239fce65.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-78672d8129aadd191790.js",
+      "component---src-layouts-index-js-78672d8129aadd191790.js.map"
+    ],
+    "component---src-pages-header-js": [
+      "component---src-pages-header-js-ea056e902ec7871fa373.js",
+      "component---src-pages-header-js-ea056e902ec7871fa373.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---community": [
+      "path---community-a0e39f21c11f6a62c5ab.js",
+      "path---community-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-examples-js": [
+      "component---src-pages-examples-js-5440e91e9b939e1385f4.js",
+      "component---src-pages-examples-js-5440e91e9b939e1385f4.js.map"
+    ],
+    "commons": [
+      "commons-c3fab840e227f450a58a.js",
+      "build-js-styles.css",
+      "commons-c3fab840e227f450a58a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---resources": [
+      "path---resources-a0e39f21c11f6a62c5ab.js",
+      "path---resources-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---footer": [
+      "path---footer-a0e39f21c11f6a62c5ab.js",
+      "path---footer-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-39ba10faaa6c27cc43c1.js",
+      "build-js-styles.css",
+      "app-39ba10faaa6c27cc43c1.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---practices": [
+      "path---practices-a0e39f21c11f6a62c5ab.js",
+      "path---practices-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---header": [
+      "path---header-a0e39f21c11f6a62c5ab.js",
+      "path---header-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-practices-js": [
+      "component---src-pages-practices-js-bd92d470a7b864718df0.js",
+      "component---src-pages-practices-js-bd92d470a7b864718df0.js.map"
+    ]
+  }
+}
